@@ -1,0 +1,25 @@
+# WordPress core (lo aporta la imagen oficial de Docker, no se versiona)
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# Config con credenciales
+wp-config.php
+
+# Uploads: pueden pesar mucho, evaluar si van a git o a otro storage
+wp-content/uploads/
+
+# Archivos de entorno / secretos
+.env
+*.env.local
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
